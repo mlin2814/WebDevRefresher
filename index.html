@@ -4,10 +4,55 @@
 	<title>Javascript</title>
 </head>
 <body>
-	<p id="text">Hello World</p>
+	<!-- <p id="text">Hello World</p>
+	<button id="myButton">Change text</button>
+
+	<p id="2ndP">Javascript is </p>
+	<button id="2ndButton">Append text</button>
+
+	<p id="3rdP"></p>
+	<button id="3rdButton">Text appears</button>
+
+	<p id="4thP">This is some text</p>
+	<button id="4thButton">Style Text</button> -->
+
+	<input type="text" name="inputEx" id="inputEx">
+	<button id="4thButton">Change the text button</button>
+
+	<p id="text">This is some text</p>
+
 	<script type="text/javascript">
 		
-		document.getElementById('text').innerHTML = "Hello meatbag";
+		// document.getElementById('myButton').onclick = function() {
+		// 	document.getElementById('text').innerHTML = "Hello meatbag";
+		// };
+
+		// document.getElementById('2ndButton').onclick = function() {
+		// 	document.getElementById('2ndP').innerHTML += "a coding language";
+		// };
+
+		// document.getElementById('3rdButton').onclick = function() {
+		// 	document.getElementById('3rdP').innerHTML = "Surprise";
+		// };
+
+		// document.getElementById('4thButton').onclick = function() {
+		// 	// document.getElementById('4thP').style.color = "red";
+		// 	// document.getElementById('4thP').style.fontSize = "50px";
+		// 	document.getElementById('4thP').style.display = "none";
+		// };
+
+		// var x = 5;
+
+		// console.log(x);
+
+		document.getElementById('4thButton').onclick = function() {
+			var textEntered = "";
+
+			textEntered = document.getElementById("inputEx").value;
+
+			document.getElementById("text").innerHTML = textEntered;
+		};
+
 	</script>
 </body>
 </html>
