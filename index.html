@@ -21,8 +21,16 @@
 
 	<p id="text">This is some text</p> -->
 
+	<!-- <p>What is the magic word?</p>
+	<p><input type="text" id="magic"></p>
+	<p><button id="checkMagic">Enter</p> -->
+
+	<p>How many fingers am I holding up?</p>
+	<p><input type="text" id="userGuess"></p>
+	<p><button id="userEnter">Enter</p>
+
 	<script type="text/javascript">
-		
+
 		// document.getElementById('myButton').onclick = function() {
 		// 	document.getElementById('text').innerHTML = "Hello meatbag";
 		// };
@@ -70,13 +78,26 @@
 
 		// console.log(tweets);
 
-		var x = 1;
+		document.getElementById('userEnter').onclick = function () {
+			var userNum = document.getElementById("userGuess").value;
+			console.log(userNum);
 
-		if (x == 1) {
-			console.log("X = 1!");
-		} else {
-			console.log("X != 1!");
+			var actualNum = Math.floor(Math.random() * 6);
+			console.log(actualNum);
+
+			if (userNum == actualNum) {
+				console.log("Success! Ahh!");
+			} else {
+				console.log("Wrong!");
+			}
 		}
+		// var x = 1;
+		//
+		// if (x == 1) {
+		// 	console.log("X = 1!");
+		// } else {
+		// 	console.log("X != 1!");
+		// }
 
 	</script>
 </body>
