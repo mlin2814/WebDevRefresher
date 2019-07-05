@@ -1,12 +1,91 @@
+// ***Functions
+
+function factorialFn(entNum) {
+  return (entNum * factorial(entNum - 1));
+}
+factorial(4);
+
+// function isEven(entNum) {
+//   if (entNum % 2 === 0) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+//
+// isEven(4);
+
+// function capitalize(str) {
+//   return str.charAt(0).toUpperCase() + str.slice(1);
+// }
+//
+// var city = "paris";
+// var capital = capitalize(city);
+
+// function square(x) {
+//   return (x * x);
+// }
+//
+// square(12);
+
+// function sayHello(name) {
+//   console.log("Hello there, " + name);
+// }
+//
+// sayHello("Matt");
+
 // **Loops
 
-var num = 5
-while (num < 51) {
-  if ((num) % 5 == 0 && (num) % 3 == 0) {
-    console.log(num);
-  }
-  num++;
-}
+// for (var i = 5; i <= 50; i++) {
+//   if (i % 5 == 0 && i % 3 == 0) {
+//     console.log(i);
+//   }
+// }
+
+// for (var i = 300; i <= 333; i++) {
+//   if (i % 2 == 1) {
+//     console.log(i);
+//   }
+// }
+
+// for (var i = 10; i <= 40; i++) {
+//   if (i % 2 == 0) {
+//       console.log(i);
+//   }
+// }
+
+// for (var i = -10; i <= 19; i++) {
+//   console.log(i);
+// }
+
+// var str = "ashdlkfjahsdjklfg"
+// for (var i = 1; i < str.length; i+=2) {
+//   console.log(str[i]);
+// }
+//
+// for (var i = 0; i < 16; i+=8) {
+//   console.log(i);
+// }
+
+// for (var i = 0; i < 6; i++) {
+//   console.log(i);
+// }
+
+// var annoy = prompt("Are we there yet?");
+// while (annoy.indexOf("yes") === -1) {
+//
+// while (annoy !== "Yeah" && annoy !== "Yes" && ) {
+//   var annoy = prompt("Are we there yet?");
+// }
+//
+// alert("Yay, we made it!");
+// var num = 5
+// while (num < 51) {
+//   if ((num) % 5 == 0 && (num) % 3 == 0) {
+//     console.log(num);
+//   }
+//   num++;
+// }
 
 // var num = 300;
 // while (num < 334) {
