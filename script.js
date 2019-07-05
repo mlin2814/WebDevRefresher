@@ -1,9 +1,13 @@
 // ***Functions
 
 function factorialFn(entNum) {
-  return (entNum * factorial(entNum - 1));
+  var result = 1;
+  for (var i = 2; i <= entNum; i++) {
+    result *= i;
+  }
+  return result;
 }
-factorial(4);
+factorialFn(4);
 
 // function isEven(entNum) {
 //   if (entNum % 2 === 0) {
