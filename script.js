@@ -1,13 +1,86 @@
+
+
+// ***Objects
+
+// var dog = {
+//   name: "Timber",
+//   age: 4,
+//   breed: "Shiba Inu"
+// }
+// dog.age = 7;
+// console.log(dog.age);
+
+// ***Arrays
+
+// function max(sub) {
+//   var max = sub[0];
+//   for (var i = 1; i < sub.length; i++) {
+//     if (max < sub[i]) {
+//       max = sub[i];
+//     }
+//   }
+//   console.log(max);
+// }
+//
+// max([1, 2, 3, 20]);
+
+// function sumArray(sub) {
+//   var total = 0;
+//   for (var i = 0; i < sub.length; i++) {
+//     total += sub[i];
+//   }
+//   console.log(total);
+// }
+//
+// sumArray([1, 2, 3, 4]);
+//
+// function isUniform(sub) {
+//   var first = sub[0];
+//   for (var i = 1; i < sub.length; i++) {
+//     if (sub[i] !== first) {
+//       return false;
+//     }
+//   }
+//   return true
+// }
+//
+// isUniform([1, 2, 1, 1]);
+//
+// function printReverse(sub) {
+//   for (var i = (sub.length - 1); i >= 0; i--) {
+//     console.log(sub[i]);
+//   }
+// }
+//
+// printReverse([1, 2, 3, 4]);
+
+// var colors = ["red", "orange", "yellow", "green"];
+//
+// colors.forEach(function(color) {
+//   console.log(color);
+// });
+
+// var fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"]
+// var citrus = fruits.slice(1, 3);
+// var colors = ["red", "orange", "yellow"];
+// specificColor = colors.indexOf("red");
+// colors.push("green");
+// colors.pop();
+// colors.unshift("infared");
+// colors.shift();
+
+// console.log(citrus);
+
 // ***Functions
 
-function factorialFn(entNum) {
-  var result = 1;
-  for (var i = 2; i <= entNum; i++) {
-    result *= i;
-  }
-  return result;
-}
-factorialFn(4);
+// function factorialFn(entNum) {
+//   var result = 1;
+//   for (var i = 2; i <= entNum; i++) {
+//     result *= i;
+//   }
+//   return result;
+// }
+// factorialFn(4);
 
 // function isEven(entNum) {
 //   if (entNum % 2 === 0) {
